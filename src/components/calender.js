@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "../css/Calender.module.css";
 
 const Calender = () => {
@@ -10,7 +10,9 @@ const Calender = () => {
         Advent Calender
       </h1>
         <div id={styles.calender_grid}>
+          <Link to="/Letter">
             <div className={styles.item1}>1</div>
+            </Link>
             <div className={styles.item}>2</div>
             <div className={styles.item}>3</div>
             <div className={styles.item}>4</div>

@@ -7,6 +7,9 @@ import LetterForm from "./components/LetterForm";
 import CreateCalender from "./components/CreateCalender";
 import Calender from "./components/calender";
 import Calender2 from "./components/calender2.js";
+import Letter from "./components/Letter";
+import Letter2 from "./components/Letter2";
+import Letter3 from "./components/Letter3";
 import styles from "./css/App.module.css";
 
 import "./css/reset.css";
@@ -24,6 +27,9 @@ const App = () => {
         <Route path="/userHome" element={<CustomHome1130 />} />
         <Route path="/calender" element={<Calender />} />
         <Route path="/calender2" element={<Calender2 />} />
+        <Route path="/Letter" element={<Letter/>} />
+        <Route path="/Letter2" element={<Letter2/>} />
+        <Route path="/Letter3" element={<Letter3/>} />
       </Routes>
     </div>
   );
